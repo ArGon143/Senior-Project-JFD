@@ -1,17 +1,7 @@
-import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { store } from './store';
-import { PetShop } from './PetShop';
+import './index.module.css';
+import FlowerShop from './FlowerShop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
-	<BrowserRouter>
-		<Provider store={store}>
-			<PetShop />
-		</Provider>
-	</BrowserRouter>,
-);
+root.render(<FlowerShop />);
