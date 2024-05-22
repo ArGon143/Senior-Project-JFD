@@ -21,7 +21,7 @@ export const CartFooter = ({ total }) => {
 	const onOrder = () => {
 		dispatch(
 			openModal({
-				text: `Сделать заказ??`,
+				text: `Сделать заказ?`,
 				onConfirm: () => {
 					dispatch(addCartDataFetch({ data: { cart, totalPrice } }));
 					dispatch(clearCart());
