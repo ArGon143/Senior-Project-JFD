@@ -1,0 +1,22 @@
+.products {
+	margin-bottom: 6rem;
+}
+.specialPanel {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+.searchPanel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-left: 1.9rem;
+}
+
+.searchImg {
+	position: absolute;
+	right: 9px;
+	top: -2px;
+	z-index: -10;
+}

@@ -1,0 +1,44 @@
+.noContent {
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.carousel {
+	margin: 0 auto;
+	position: relative;
+	width: 550px;
+	height: 256px;
+	perspective: 500px;
+	transform-style: preserve-3d;
+}
+
+.cardContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: rotateY(calc(var(--offset) * 50deg))
+		scaleY(calc(1 + var(--abs-offset) * -0.4))
+		translateZ(calc(var(--abs-offset) * -30rem))
+		translateX(calc(var(--direction) * -5rem));
+	filter: blur(calc(var(--abs-offset) * 1rem));
+	transition: all 0.3s ease-out;
+}
+
+.nav {
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+	cursor: pointer;
+	user-select: none;
+	background: unset;
+	border: unset;
+}
+
+.navLeft {
+	transform: translateX(-100%) translatey(-50%);
+}
+
+.navRight {
+	right: 0;
+	transform: translateX(100%) translatey(-50%);
+}

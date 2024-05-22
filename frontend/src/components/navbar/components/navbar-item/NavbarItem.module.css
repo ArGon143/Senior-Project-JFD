@@ -1,0 +1,24 @@
+.navbarItemDark {
+	margin-right: 30px;
+	text-decoration: none;
+	color: #1f2937;
+}
+.navbarItemLight {
+	margin-right: 30px;
+	text-decoration: none;
+	color: #d9d9d9;
+}
+
+.navbarItemDark:focus {
+	color: #ff8f52;
+}
+
+.navbarItemDark:hover,
+.navbarItemLight:hover {
+	text-decoration: underline;
+	color: #ff8f52;
+}
+.navbarItemDark:active,
+.navbarItemLight:active {
+	color: red;
+}

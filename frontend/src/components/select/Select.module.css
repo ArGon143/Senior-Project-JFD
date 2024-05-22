@@ -1,0 +1,16 @@
+.select {
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	font-size: 18px;
+	border-radius: 5px;
+	outline-color: #ff8f52;
+	height: 40px;
+	width: 240px;
+	/* padding: 0 35px; */
+	text-align: center;
+	background: none;
+	appearance: none;
+	background-image: url('https://3.downloader.disk.yandex.ru/preview/128eecc9f7c497dc41255661245d849245018deec195eb0f8e43bc5e9e51f17a/inf/wu1TPEB5dZvms6pGoOYZsOqVJloKkMJMhZlVZi7xciHpuZ8mKw9uoQs-47JKYUpeKoy6nIGiY2_qk2fU2z3ZNQ%3D%3D?uid=537849441&filename=icons8-triangle-24.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896');
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.7em top 50%, 0 0;
+	background-size: 0.75em auto, 100%;
+}

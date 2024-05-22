@@ -1,0 +1,16 @@
+.controlPanel {
+	display: flex;
+	align-items: center;
+}
+
+.userName {
+	font-size: 18px;
+	color: #ff8f52;
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+}
+.userName:hover {
+	text-decoration: none;
+	color: #1f2937;
+}

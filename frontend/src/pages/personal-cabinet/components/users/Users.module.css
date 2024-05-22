@@ -1,0 +1,12 @@
+.usersWrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 780px;
+	font-size: 18px;
+}
+
+.tableTitle {
+	width: 160px;
+}

@@ -1,0 +1,50 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.nav {
+	text-align: center;
+}
+
+.moveButton {
+	color: #1f2937;
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: 3px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid transparent;
+	border-radius: 100%;
+	cursor: pointer;
+	background: none;
+}
+
+.moveButton.active {
+	cursor: default;
+	background-color: #ff8f52;
+}
+
+.moveButton:active {
+	outline: none;
+	background-color: #ff8f52;
+}
+
+.moveButton:hover {
+	background-color: azure;
+	border: 1px solid darkgrey;
+}
+
+.moveButton.active:hover {
+	background-color: #ff8f52;
+}
+
+.moveButton:disabled {
+	opacity: 0.2;
+}
+.moveButton:disabled:hover {
+	cursor: default;
+	background: none;
+	border: none;
+}

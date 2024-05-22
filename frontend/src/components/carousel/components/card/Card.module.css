@@ -1,0 +1,43 @@
+.card {
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	background-color: hsl(30deg, 100%, calc(98% - var(--abs-offset) * 50%));
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: justify;
+	transition: all 0.3s ease-out;
+}
+
+.titleCard {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.titleText {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #1f2937;
+	margin: 0;
+}
+
+.titleContext {
+	height: 96px;
+	margin: 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.titleText,
+.titleImg,
+.titleAbout,
+.titleContext {
+	transition: all 0.3s ease-out;
+	opacity: var(--active);
+}

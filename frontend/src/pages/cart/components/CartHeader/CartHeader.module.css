@@ -1,0 +1,20 @@
+.cartHeader {
+	display: grid;
+	grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+	column-gap: 30px;
+	padding: 15px 0;
+	background-color: #80808020;
+	border-radius: 10px 10px 0 0;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1.2;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	height: 50px;
+	align-items: center;
+}
+
+.cartHeaderTitle {
+	grid-column-start: 2;
+}

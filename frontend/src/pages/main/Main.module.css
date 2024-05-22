@@ -1,0 +1,57 @@
+.mainWrapper {
+	display: flex;
+	flex-flow: column;
+}
+
+.mainFirstPageWrapper {
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 7rem;
+}
+
+.mainFirstPageWrapperLeft {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.mainFirstPageWrapperRight {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 55%;
+}
+
+.mainFirstPageText {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 23.44px;
+	text-align: left;
+	color: #838383;
+	margin: 0 0 2.8rem 0;
+}
+
+.mainPageWrapper {
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 7rem;
+}
+
+.titleWrapper {
+	display: flex;
+	flex-flow: row;
+	width: 600px;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+}
+
+.borderTitle {
+	width: 165px;
+	height: 0px;
+	border: 2px solid #d9d9d9;
+}
+
+.cardWrapper:hover {
+	cursor: pointer;
+}

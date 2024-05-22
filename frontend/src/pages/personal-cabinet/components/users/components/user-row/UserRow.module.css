@@ -1,0 +1,15 @@
+.tableTitle {
+	width: 160px;
+}
+
+.userRow {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0 0.5rem 0;
+
+	& select {
+		font-size: 18px;
+		padding: 0 5px;
+		border-radius: 5px;
+	}
+}

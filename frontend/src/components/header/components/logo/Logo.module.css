@@ -1,0 +1,17 @@
+.logo {
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.text {
+	font-size: 13px;
+	font-variant: small-caps;
+	color: #1f2937;
+	margin-top: -10px;
+}
+
+.spanAccent {
+	color: #ff8f52;
+}

@@ -1,0 +1,38 @@
+.review {
+	width: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.content {
+	width: 850px;
+	height: 100%;
+	padding: 1.5rem 1rem;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.informationPanel {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.author {
+	display: flex;
+	align-items: center;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.publishedAt {
+	display: flex;
+}
+
+.contentText {
+	font-size: 18px;
+	text-align: justify;
+}

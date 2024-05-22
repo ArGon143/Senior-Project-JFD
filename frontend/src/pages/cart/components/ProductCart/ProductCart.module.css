@@ -1,0 +1,21 @@
+.product {
+	display: grid;
+	grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+	column-gap: 30px;
+
+	padding: 5px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.product > * {
+	align-self: center;
+}
+
+.productImg,
+.productControls {
+	justify-self: center;
+}

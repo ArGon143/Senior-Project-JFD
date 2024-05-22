@@ -1,0 +1,54 @@
+.container {
+	font-size: 18px;
+	width: 100%;
+	min-height: 430px;
+	height: 100%;
+	background-color: #f2f2f2;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: none;
+	border-radius: 10px;
+}
+
+.tabList {
+	height: 50px;
+	display: flex;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.tabs {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #80808020;
+	position: relative;
+	cursor: pointer;
+}
+
+.tabs:not(:last-child) {
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.activeTabs {
+	background: #f2f2f2;
+	border-top: 3px solid #ff8f52;
+}
+
+.activeTabs:first-child,
+.tabs:first-child {
+	border-radius: 10px 0 0 0;
+}
+
+.activeTabs:last-child,
+.tabs:last-child {
+	border-radius: 0 10px 0 0;
+}
+
+.content {
+	background-color: #f2f2f2;
+	padding: 2rem;
+	display: flex;
+}
