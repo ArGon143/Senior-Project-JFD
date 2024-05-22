@@ -11,6 +11,8 @@ export const PurchaseHistory = () => {
 	const purchaseHistory = useSelector(selectPurchaseData);
 	const user = useSelector(selectUserLogin);
 
+	console.log(purchaseHistory.lenght === 0);
+
 	useEffect(() => {
 		dispatch(loadPurchaseDataFetch());
 	}, [dispatch]);
@@ -25,6 +27,12 @@ export const PurchaseHistory = () => {
 	return (
 		<div className={styles.purchaseHistory}>
 			{purchaseHistory.lenght === 0 ? (
+				<NoContent
+					children={'Вы еще ничего не покупали в нашем магазине'}
+					margin={'6rem 0 0 12rem'}
+					color={'#838383'}
+				/>
+			) : (
 				<>
 					<H2
 						fontSize={'28px'}
@@ -94,12 +102,6 @@ export const PurchaseHistory = () => {
 						</div>
 					</div>
 				</>
-			) : (
-				<NoContent
-					children={'Вы еще ничего не покупали в нашем магазине'}
-					margin={'6rem 0 0 12rem'}
-					color={'#838383'}
-				/>
 			)}
 		</div>
 	);
