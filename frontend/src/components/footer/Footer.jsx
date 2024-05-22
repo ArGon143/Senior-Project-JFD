@@ -40,7 +40,7 @@ export const Footer = () => {
 					href="https://yandex.ru/maps/-/CDV-NNnm"
 				>
 					<CustomImage
-						src="https://4.downloader.disk.yandex.ru/preview/fc5ddab35e2a6a77c2f00ce3424e5fad07e82a2509cd077ecf01db2e919d6bdc/inf/lmmiynaqknS06rEuWV8fgIDpKw4zjSKKfK4nM1-6nM5fh-huJQcijlwFXIgzokqknuwcgaexRSuTMchHLY7tvg%3D%3D?uid=537849441&filename=icons8-location-100.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1901x933"
+						src="https://i.postimg.cc/CLB6RQxF/icons8-male-user-100.png"
 						alt={'location'}
 						width={20}
 						height={20}
@@ -50,7 +50,7 @@ export const Footer = () => {
 				</a>
 				<a className={styles.footerLink} href="mailto:FlowersShop@mail.ru">
 					<CustomImage
-						src="https://1.downloader.disk.yandex.ru/preview/ef15b68defdd610aac800773901376aec3b5450ed03c81c856cdfa94c50534e9/inf/g0QQH2gCU_xZo-9Fk9Lr9t90hS01kJyN_45GIK_rjawLyoHK4FSHBKE2ze93NAGjUyjUkqHqY4zmOGUlcDcUpQ%3D%3D?uid=537849441&filename=icons8-email-90.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1901x933"
+						src="https://i.postimg.cc/Kz0sTXTY/icons8-email-90.png"
 						alt={'location'}
 						width={20}
 						height={20}
@@ -60,7 +60,7 @@ export const Footer = () => {
 				</a>
 				<a className={styles.footerLink} href="tel:84959999999">
 					<CustomImage
-						src="https://1.downloader.disk.yandex.ru/preview/161c4ec9fe4aeeaab87dd3c4b27c4baeba194ecff4c9c00db2749e93a3e39704/inf/8j-z1oem7CgOA7oX5r9cxT_ZYYesvdqFaZOS_Cfmnd7WhVexbwlFcyPjwXcqCVyw_kx_eUXeoXMwfdX_8OQP4g%3D%3D?uid=537849441&filename=icons8-phone-100.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1901x933"
+						src="https://i.postimg.cc/zGTtjHh6/icons8-phone-100.png"
 						alt={'location'}
 						width={20}
 						height={20}

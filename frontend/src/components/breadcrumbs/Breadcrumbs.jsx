@@ -24,7 +24,7 @@ export const Breadcrumbs = ({
 		<div className={styles.breadcrumbs} style={breadcrumbsStyle}>
 			<Link to="/">
 				<CustomImage
-					src="https://1.downloader.disk.yandex.ru/preview/d352a2a46f03331be517312414b59d6ed122f7dc240d3de77df551a17127f7b6/inf/_RM0Z55Vv8BOADlIGymvOApu0wTbns9GMsu7u2LMMEgnce9oGj2T-wThqlFL7humiGS6A5F6CaRUEurIZbpwhg%3D%3D?uid=537849441&filename=icons8-home-64.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+					src="https://i.postimg.cc/kGDYFjNv/icons8-home-64.png"
 					alt={'home'}
 					width={21}
 					height={21}

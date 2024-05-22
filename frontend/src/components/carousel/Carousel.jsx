@@ -27,7 +27,7 @@ export const Carousel = ({ content }) => {
 					onClick={() => setActive((i) => i - 1)}
 				>
 					<CustomImage
-						src="https://4.downloader.disk.yandex.ru/preview/1cff60f0d82b23cad33665a8777be61144b1cecdcf3b98183a0c25a86859ad2e/inf/lwbxNlzbQsVl4B6eqAfP-5N1FlIgz3Tuw4LhZ0PNsn_PdENQKevsXaZZTKb8oCqMYgJ_PF7Xd95LZO-8TVZIMQ%3D%3D?uid=537849441&filename=icons8-chevron-left-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+						src="https://i.postimg.cc/Cx8tQ63v/icons8-chevron-left-96.png"
 						alt={'chevron_left'}
 						width={72}
 						height={72}
@@ -59,7 +59,7 @@ export const Carousel = ({ content }) => {
 					onClick={() => setActive((i) => i + 1)}
 				>
 					<CustomImage
-						src="https://2.downloader.disk.yandex.ru/preview/583bb7bdb1d4024cdca57f650ac404015c5b944bac73ec5bda12e8b8bf4a8931/inf/D3rD7LVz4pJTIDGXrXQo-cPxMe4kFGWwbmtHIBlP-NwMhqDp33qM-A6OSegLq52RsA-J28_1H9jsJa1n-xZwnA%3D%3D?uid=537849441&filename=icons8-chevron-right-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+						src="https://i.postimg.cc/s2R8d4y3/icons8-chevron-right-96.png"
 						alt={'chevron_right'}
 						width={72}
 						height={72}
