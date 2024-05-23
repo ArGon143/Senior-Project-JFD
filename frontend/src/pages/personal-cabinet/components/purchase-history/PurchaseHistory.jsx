@@ -11,8 +11,6 @@ export const PurchaseHistory = () => {
 	const purchaseHistory = useSelector(selectPurchaseData);
 	const user = useSelector(selectUserLogin);
 
-	console.log(purchaseHistory.lenght === 0);
-
 	useEffect(() => {
 		dispatch(loadPurchaseDataFetch());
 	}, [dispatch]);
@@ -22,7 +20,6 @@ export const PurchaseHistory = () => {
 	const data = purchaseHistory.filter((item) => item.author === user);
 
 	data.map((item) => totalPrice.push(item.data[0].totalPrice));
-	console.log(totalPrice.reduce((sum, current) => sum + current, 0));
 
 	return (
 		<div className={styles.purchaseHistory}>

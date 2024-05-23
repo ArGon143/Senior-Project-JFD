@@ -15,7 +15,6 @@ export const CartFooter = ({ total }) => {
 	const dispatch = useDispatch();
 	const cart = useSelector(selectCart);
 
-	console.log(total.price);
 	const totalPrice = total.price;
 
 	const onOrder = () => {
