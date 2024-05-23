@@ -14,13 +14,7 @@ import {
 } from '../../../../store/actions';
 
 export const ProductForm = ({
-	id,
-	title,
-	price,
-	imageUrl,
-	description,
-	specifications,
-	bestSel,
+	product: { id, title, price, imageUrl, description, specifications, bestSel },
 }) => {
 	const [imageUrlValue, setImageUrlValue] = useState(imageUrl);
 	const [titleValue, setTitleValue] = useState(title);
