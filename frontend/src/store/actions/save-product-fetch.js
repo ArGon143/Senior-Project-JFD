@@ -1,4 +1,5 @@
 import { request } from '../../utils';
+import { loadProductsFetch } from './load-products-fetch';
 import { setProductData } from './set-product-data';
 
 export const saveProductFetch = (id, newProductData) => (dispatch) => {
@@ -8,6 +9,7 @@ export const saveProductFetch = (id, newProductData) => (dispatch) => {
 
 	return saveRequest.then((updatedProduct) => {
 		dispatch(setProductData(updatedProduct.data));
+		dispatch(loadProductsFetch());
 		return updatedProduct.data;
 	});
 };
