@@ -17,7 +17,7 @@ export const NewReviewOrComment = ({ newData, onClick, onChange, placeholder }) 
 				onChange={onChange}
 			/>
 			<CustomImage
-				src="https://4.downloader.disk.yandex.ru/preview/00d8dfde31f44643573ff93439743a579766310574e276d7e7e2023d674630dc/inf/aiaPjPKZ23NJwjB5342Lyskd82roEeoC1Bdf9kMDUSfJoZcG182uLq8yBKRCXRETkv1vtU44knpy28HUkWevFg%3D%3D?uid=537849441&filename=icons8-paper-plane-100.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+				src="https://i.postimg.cc/CL3rksRb/icons8-paper-plane-100.png"
 				alt={'send'}
 				width={30}
 				height={30}

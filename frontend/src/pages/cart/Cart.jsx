@@ -32,7 +32,7 @@ export const Cart = () => {
 			{cart.length === 0 ? (
 				<div className={styles.cartEmpty}>
 					<CustomImage
-						src="https://4.downloader.disk.yandex.ru/preview/358e715958160796dfa0a79b5c41e34b8304f93ca10f24e7f8e5a735588d3529/inf/To_SXWYfSggbEZ4LofubRk4uhcZU5ZO8JGC9WdmpL3IgXPcJxOCZ2GLVxo5ymP3FPvPfdSrdkvlNaNJimmL3lw%3D%3D?uid=537849441&filename=cart_emty.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+						src="https://i.postimg.cc/9f53XjP5/cart-emty.png"
 						alt={'cartEmpty'}
 						width={258}
 						height={234}

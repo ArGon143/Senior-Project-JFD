@@ -96,7 +96,7 @@ export const Products = () => {
 					/>
 					<CustomImage
 						className={styles.searchImg}
-						src="https://4.downloader.disk.yandex.ru/preview/3c6000e5b1d926debaf78543ea2eb410c87a2bee1e36152f473334980f9d1403/inf/THp3L1WpaHp8kkJuQlN9Y8kaOFFSU3lenLz-m220W4lCaIUN7XkWueiBrSy4hwa2CC5MQRuj4i_mxs3Mu-111w%3D%3D?uid=537849441&filename=icons8-search-128.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+						src="https://i.postimg.cc/KYN9XXJ5/icons8-search-128.png"
 						alt={'search'}
 						width={40}
 						height={40}

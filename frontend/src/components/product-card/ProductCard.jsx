@@ -56,7 +56,7 @@ export const ProductCard = ({ product, ...props }) => {
 			</div>
 			<div className={styles.linkUpdate} onClick={() => addCart(product.id)}>
 				<CustomImage
-					src="https://4.downloader.disk.yandex.ru/preview/d573d512d6b2219af49cf9de4c9558aceda51434280728883c0970b034c02284/inf/5pwYAyHQS5nnFyoI0T5N2MWOElpuwvWMh_P0_3mcf9LoZva1bXRf6uEgljGerMkYnMJQ43u2UstVkgL7WhbrRg%3D%3D?uid=537849441&filename=icons8-shopping-cart-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1901x933"
+					src="https://i.postimg.cc/JnzpMTFC/icons8-shopping-cart-96.png"
 					alt={'cart'}
 					width={21}
 					height={21}

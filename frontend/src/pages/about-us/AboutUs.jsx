@@ -9,7 +9,7 @@ export const AboutUs = () => {
 			</H2>
 			<div className={`${styles.content} ${styles.text}`}>
 				<CustomImage
-					src="https://4.downloader.disk.yandex.ru/preview/70b094f3f287537d673f7bc0e8fad651e296f1245b503fbff00114574fb9d396/inf/UM7Tw-Iu-px6Sj9exanIiOCgtO3ZKBmlNf-MQUwz-0Wi60-Oqj3KMe_tK-HnI4CcMKSJdy4zZoGFXj8vLiTHQw%3D%3D?uid=537849441&filename=5jeg16zfkgl4g2e6ak06dygefu501iik.webp&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=537849441&tknv=v2&size=1896x896"
+					src="https://i.postimg.cc/bvQ7sFLG/5jeg16zfkgl4g2e6ak06dygefu501iik.webp"
 					alt={'shop'}
 					width={500}
 					height={380}

@@ -192,7 +192,7 @@ ProductForm.propTypes = {
 		id: PropTypes.string,
 		title: PropTypes.string,
 		price: PropTypes.number,
-		imageUrl: PropTypes.number,
+		imageUrl: PropTypes.string,
 		description: PropTypes.string,
 		specifications: PropTypes.object,
 		bestSel: PropTypes.bool,

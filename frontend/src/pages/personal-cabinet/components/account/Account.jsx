@@ -13,10 +13,8 @@ export const Account = () => {
 	return (
 		<div className={styles.account}>
 			<CustomImage
-				src={
-					'https://1.downloader.disk.yandex.ru/preview/a5a713fe4cfec0087c5126fce603a9b119b0b9d3b3bddffe707607f82c5acf77/inf/YRcb4TlFlTh5o9Hirb3pDKUkfOwvjuEt8-lhUUChOERwasNLnH4erxnrrJ8ViqDJKK4PPIllbmH7gsaf8sU2gw%3D%3D?uid=537849441&filename=icons8-male-user-100.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896'
-				}
-				alt={'flower'}
+				src={'https://i.postimg.cc/CLB6RQxF/icons8-male-user-100.png'}
+				alt={'avatar'}
 				width={150}
 				height={150}
 				margin={'2rem'}

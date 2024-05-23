@@ -35,7 +35,7 @@ export const ProductCart = ({ product }) => {
 			<div>{formatPrice(priceTotal)} &#x20bd;</div>
 			<div className={styles.productControls}>
 				<CustomImage
-					src="https://4.downloader.disk.yandex.ru/preview/d0b0d018f105d086aacab82b141f395862169860587211594b7dcf47f9559763/inf/S8LFtDL_BVVx-0LfPJ_eYq8vdc4f7yY1V24d7vwofjlmfB37Bg2sdADJ9x9OjT9gqn_pMn8xNm499gYgywMrcQ%3D%3D?uid=537849441&filename=icons8-trash-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+					src="https://i.postimg.cc/50Kn0BcY/icons8-trash-96.png"
 					alt={'trash'}
 					width={40}
 					height={40}

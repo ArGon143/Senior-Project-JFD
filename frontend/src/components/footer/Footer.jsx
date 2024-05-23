@@ -40,7 +40,7 @@ export const Footer = () => {
 					href="https://yandex.ru/maps/-/CDV-NNnm"
 				>
 					<CustomImage
-						src="https://i.postimg.cc/CLB6RQxF/icons8-male-user-100.png"
+						src="https://i.postimg.cc/GtN7Mkqw/icons8-location-100.png"
 						alt={'location'}
 						width={20}
 						height={20}

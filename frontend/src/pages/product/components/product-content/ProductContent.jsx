@@ -85,7 +85,7 @@ export const ProductContent = ({ product }) => {
 						>
 							<div className={styles.buttonBuy}>
 								<CustomImage
-									src="https://3.downloader.disk.yandex.ru/preview/9386c1917bc6404557c39716255acc407dc6f733ff4f09449223e43da878c3db/inf/Tg0f1OdM1t0TEiPTSHoqSBlSouYVkc4swgu_0Q7O2iHnRevRQJ8hWS3LCao4-suNFJXOvWKFu05PEQlaMNo8aA%3D%3D?uid=537849441&filename=icons8-cart-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+									src="https://i.postimg.cc/jdmmvrFw/icons8-cart-96.png"
 									alt={'cart'}
 									width={21}
 									height={21}

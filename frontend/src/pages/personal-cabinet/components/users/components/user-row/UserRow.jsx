@@ -50,7 +50,7 @@ export const UserRow = ({
 				<div style={{ width: '32px' }}></div>
 			) : (
 				<CustomImage
-					src="https://2.downloader.disk.yandex.ru/preview/c37686a863b95083841966dff7735ce10ed5c27884f6ca98b8ca9945b3419123/inf/nlIVE1pF-oN24pfThHrryIm9dVYYzkyn5P2Ara-3dfcYrxa0iCYhK2cz7_lfjna8mBo9GuPOEWrjt8h4ji1CQQ%3D%3D?uid=537849441&filename=icons8-save-100.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+					src="https://i.postimg.cc/CKYv6MH1/icons8-save-100.png"
 					alt={'save'}
 					width={32}
 					height={32}
@@ -61,7 +61,7 @@ export const UserRow = ({
 				/>
 			)}
 			<CustomImage
-				src="https://4.downloader.disk.yandex.ru/preview/d0b0d018f105d086aacab82b141f395862169860587211594b7dcf47f9559763/inf/S8LFtDL_BVVx-0LfPJ_eYq8vdc4f7yY1V24d7vwofjlmfB37Bg2sdADJ9x9OjT9gqn_pMn8xNm499gYgywMrcQ%3D%3D?uid=537849441&filename=icons8-trash-96.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+				src="https://i.postimg.cc/50Kn0BcY/icons8-trash-96.png"
 				alt={'trash'}
 				width={40}
 				height={40}

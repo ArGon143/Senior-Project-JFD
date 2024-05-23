@@ -88,7 +88,7 @@ export const Authorization = () => {
 					</H2>
 					<Link to="/" className={styles.linkUpdate}>
 						<CustomImage
-							src="https://1.downloader.disk.yandex.ru/preview/d352a2a46f03331be517312414b59d6ed122f7dc240d3de77df551a17127f7b6/inf/_RM0Z55Vv8BOADlIGymvOApu0wTbns9GMsu7u2LMMEgnce9oGj2T-wThqlFL7humiGS6A5F6CaRUEurIZbpwhg%3D%3D?uid=537849441&filename=icons8-home-64.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1896x896"
+							src="https://i.postimg.cc/kGDYFjNv/icons8-home-64.png"
 							alt={'home'}
 							width={21}
 							height={21}
@@ -144,7 +144,7 @@ export const Authorization = () => {
 			</div>
 			<div className={styles.authorizationRightWrapper}>
 				<CustomImage
-					src="https://3.downloader.disk.yandex.ru/preview/bd1b4b0cc8ce19e77252c610c96d35f1c02e0d125b7994543c73c3b9a675b722/inf/2ussRMAF_ZBH93YY5LvrUbnYJEq-5xfJa8Aepdoy8pNJTyYF6mbRQ9RrPoQXW-ppELmAMop_EdxqAT26d_h-5w%3D%3D?uid=537849441&filename=Rectangle%20491.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=537849441&tknv=v2&size=1901x933"
+					src="https://i.postimg.cc/W3TQr6f5/Rectangle-491.png"
 					alt={'flower'}
 					width={350}
 					height={430}
