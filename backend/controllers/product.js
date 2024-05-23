@@ -31,8 +31,9 @@ function deleteProduct(id) {
 }
 
 //get
-function getProducts() {
-  return Product.find();
+async function getProducts() {
+  const products = await Product.find();
+  return products;
 }
 
 // get item

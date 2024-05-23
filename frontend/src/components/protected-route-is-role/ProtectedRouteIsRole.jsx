@@ -24,4 +24,5 @@ export const ProtectedRouteIsRole = ({ children, role }) => {
 
 ProtectedRouteIsRole.propTypes = {
 	children: PropTypes.node.isRequired,
+	role: PropTypes.array.isRequired,
 };

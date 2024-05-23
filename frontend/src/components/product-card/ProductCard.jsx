@@ -3,23 +3,14 @@ import styles from './ProductCard.module.css';
 import { CustomImage } from '../сustom-image/СustomImage';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { addToCart, CLOSE_MODAL, openModal } from '../../store/actions';
+import { addToCart } from '../../store/actions';
 
 export const ProductCard = ({ product, ...props }) => {
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
 
 	const addCart = (id) => {
-		dispatch(
-			openModal({
-				text: `Добавить "${product.title}" в корзину?`,
-				onConfirm: () => {
-					dispatch(addToCart(id));
-					dispatch(CLOSE_MODAL);
-				},
-				onCancel: () => dispatch(CLOSE_MODAL),
-			}),
-		);
+		dispatch(addToCart(id));
 	};
 
 	return (

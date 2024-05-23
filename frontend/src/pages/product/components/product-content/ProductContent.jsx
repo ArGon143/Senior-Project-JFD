@@ -18,11 +18,10 @@ export const ProductContent = ({ product }) => {
 	const addCart = (id) => {
 		dispatch(
 			openModal({
-				text: `Добавить "${product.title}" в корзину?`,
+				text: `Товар "${product.title}" добавлен в корзину`,
 				onConfirm: () => {
 					dispatch(addToCart(id));
 					dispatch(CLOSE_MODAL);
-					navigate(`/cart`);
 				},
 				onCancel: () => dispatch(CLOSE_MODAL),
 			}),

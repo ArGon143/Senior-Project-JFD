@@ -29,7 +29,7 @@ export const Modal = () => {
 						width={'120px'}
 						margin={'0 10px'}
 						borderRadius={'5px'}
-						children={'Да'}
+						children={'Ок'}
 						onClick={onConfirm}
 					/>
 					<Button

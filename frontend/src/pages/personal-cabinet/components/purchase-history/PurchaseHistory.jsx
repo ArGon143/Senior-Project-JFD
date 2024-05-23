@@ -55,7 +55,7 @@ export const PurchaseHistory = () => {
 								className={styles.tableTitle}
 								style={{ fontWeight: 'bold' }}
 							>
-								Cтоимость
+								Cтоимость (за ед.)
 							</div>
 						</TableRow>
 						<div

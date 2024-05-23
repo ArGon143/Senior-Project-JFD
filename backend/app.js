@@ -76,16 +76,16 @@ app.get("/products", async (req, res) => {
   res.send({ data: products.map(mapProduct) });
 });
 
-app.get("/products/:id", async (req, res) => {
-  const product = await getProduct(req.params.id);
-
-  res.send({ data: mapProduct(product) });
-});
-
 app.get("/reviews", async (req, res) => {
   const reviews = await getReviews();
 
   res.send({ data: reviews.map(mapReview) });
+});
+
+app.get("/products/:id", async (req, res) => {
+  const product = await getProduct(req.params.id);
+
+  res.send({ data: mapProduct(product) });
 });
 
 app.use(authenticated);
