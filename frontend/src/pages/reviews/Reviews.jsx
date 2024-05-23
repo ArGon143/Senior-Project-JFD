@@ -1,6 +1,6 @@
 import styles from './Reviews.module.css';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
 	addReviewFetch,
@@ -19,13 +19,16 @@ export const Reviews = () => {
 	const userRole = useSelector(selectUserRole);
 	const reviews = useSelector(selectReviews);
 
+	useEffect(() => {
+		dispatch(loadReviewsFetch());
+	}, [dispatch]);
+
 	const onNewReviewAdd = (content) => {
 		dispatch(
 			openModal({
 				text: 'Оставить отзыв?',
 				onConfirm: () => {
 					dispatch(addReviewFetch(content));
-					dispatch(loadReviewsFetch());
 					dispatch(CLOSE_MODAL);
 					setNewReview('');
 				},

@@ -34,6 +34,9 @@ const FlowerShop = () => {
 
 	useEffect(() => {
 		dispatch(loadProductsFetch());
+	}, [dispatch]);
+
+	useEffect(() => {
 		dispatch(loadReviewsFetch());
 	}, [dispatch]);
 
